@@ -104,10 +104,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  name             : "Min Jee Kim"
+  avatar           : "assets/images/bio-photo.jpeg"
+  bio              : "Avid Adventurer"
+  location         : "Seoul"
   email            :
   links:
     - label: "Email"
@@ -124,10 +124,11 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "MinJ-Kimm.github.io"
+      
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin-square"
+      url: "https://www.linkedin.com/in/min-jee-kim-480702209/"
 
 # Site Footer
 footer:
@@ -287,8 +288,9 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
 
 future: true
+search: true
